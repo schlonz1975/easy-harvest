@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "easyharvest",
+	"version": "${version}",
+	"name": "Easy Harvest",
+	"description": "Right-click a fully grown crop to harvest and replant it.",
+	"authors": ["Jens"],
+	"license": "CC0-1.0",
+	"icon": "assets/easyharvest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.easyharvest.EasyHarvest"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
